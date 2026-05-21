@@ -2,9 +2,8 @@
 
 **RTL Design on Xilinx Spartan-7 XC7S50 (Boolean Board) using Verilog HDL**
 
-> Author: Rohan — E&TC Semester 4, PICT Pune  
-> Tool: Xilinx Vivado 2024.x  
-> Board: Boolean Board — Spartan-7 XC7S50-CSGA324  
+> Tool: Xilinx Vivado 
+> Board: Boolean Board — Spartan-7 XC7S50-1CSGA324  
 > Clock: 100 MHz on-board oscillator  
 
 ---
@@ -182,18 +181,10 @@ fpga_clock/
 
 ## Future Work
 
-- [ ] I2C master — DS3231 RTC integration for power-cycle persistence
 - [ ] SPI master — OLED display upgrade
 - [ ] Multiple alarm slots
-- [ ] VGA sync generator for monitor display
 - [ ] Countdown timer mode
 
 ---
 
-## References
 
-1. P. P. Chu, *FPGA Prototyping by Verilog Examples*, Wiley, 2008
-2. J. F. Wakerly, *Digital Design: Principles and Practices*, 5th ed., Pearson, 2018
-3. Xilinx, *Spartan-7 FPGAs Data Sheet*, DS189, 2022
-4. Digilent, *Boolean Board Reference Manual*, Rev. B, 2021
-5. I. Sengupta, *Hardware Modeling using Verilog*, NPTEL, IIT Kharagpur
