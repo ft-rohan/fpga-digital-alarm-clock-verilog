@@ -3,7 +3,6 @@
 ntp_uart_sync.py
 ================
 FPGA Digital Alarm Clock — NTP Time Synchronisation over UART
-Author : Rohan — E&TC Sem 4, PICT Pune
 
 Fetches current time via NTP (pool.ntp.org) and sends it to the FPGA
 over UART as a 4-byte packet: [0xFF, HH, MM, SS]
